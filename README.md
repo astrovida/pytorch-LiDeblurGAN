@@ -27,7 +27,7 @@ git clone https://github.com/astrovida/pytorch-CycleGAN-and-pix2pix-qrcode.git
 - For Conda users, we include a script `./scripts/conda_deps.sh` to install PyTorch and other libraries.
 
 ### CycleGAN train/test
-- Download a Qrcode dataset (avaiable in):
+- Download a Qrcode dataset (avaiable in https://drive.google.com/open?id=1h4GbZr0OXIOPSFhKlBnKvdLkiqZykDON):
 
 - Train a model:
 ```
@@ -47,7 +47,7 @@ python test.py --dataroot ./datasets/qrcode --name deblurLightCycleGAN_4block_e6
 
 
 ## [Datasets](docs/datasets.md)
-Download Qrcode datasets from 
+Download Qrcode datasets from https://drive.google.com/open?id=1h4GbZr0OXIOPSFhKlBnKvdLkiqZykDON
 
 ## [Training/Test Tips](docs/tips.md)
 Best practice for training and testing your models.
