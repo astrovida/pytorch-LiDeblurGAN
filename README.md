@@ -36,7 +36,7 @@ python train.py --dataroot ./datasets/qrcode --name deblurLightCycleGAN_4block_e
 ```
 
 The test results will be saved to a html file here: `./results/deblurLightCycleGAN_4block_e6/latest_test/index.html`.
-- To view training results and loss plots, run `python -m visdom.server` and click the URL http://localhost:8097. To see more intermediate results, check out `./checkpoints/maps_cyclegan/web/index.html`
+- To view training results and loss plots, run `python -m visdom.server` and click the URL http://localhost:8097. To see more intermediate results, check out `./checkpoints/deblurLightCycleGAN_4block_e6/web/index.html`
 
 
 - Test a model:
